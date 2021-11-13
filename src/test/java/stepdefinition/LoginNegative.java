@@ -14,6 +14,8 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginNegative {
 
+    private static final String CORRECT_EMAIL = "";
+    private static final String INCORRECT_PASSWORD = "InvalidPassword";
     InitialClass initialClass;
     LoginPage loginPage;
     AppiumDriver<WebElement> driver = null;
@@ -46,13 +48,13 @@ public class LoginNegative {
 
     @And("L2 - user enters valid email")
     public void lUserEntersValidEmail() {
-        loginPage.enterEmail(driver, "borshiq111@gmail.com");
+        loginPage.enterEmail(driver, CORRECT_EMAIL);
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
     }
 
     @And("L2 - user enters invalid password")
     public void lUserEntersInvalidPassword() throws InterruptedException {
-        loginPage.enterPassword(driver, "InvalidPassword");
+        loginPage.enterPassword(driver, INCORRECT_PASSWORD);
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         Thread.sleep(15000);
     }

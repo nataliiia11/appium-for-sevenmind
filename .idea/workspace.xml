@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26406a2-0b74-48c6-981a-45ef40a19018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/InitialClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/InitialClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/LoginNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/LoginNegative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinition/LoginPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinition/LoginPositive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/HtmlReports1/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/HtmlReports1/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/JSONReports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSONReports/report.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/JUnitReports/report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JUnitReports/report.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/InitialClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinition/InitialClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinition/LoginPositive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinition/LoginPositive.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +49,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\azarn\Documents\appium-sevenmind" />
       <recent name="C:\Users\azarn\Downloads\BA_Ue02_NATALIIA_AZARNYKH\AppiumForSevenminds\src\test\resources\features" />
       <recent name="C:\Users\azarn\Downloads\BA_Ue02_NATALIIA_AZARNYKH\AppiumForSevenminds\src\test\resources" />
       <recent name="C:\Users\azarn\Downloads\BA_Ue02_NATALIIA_AZARNYKH\AppiumForSevenminds\src\test" />
@@ -99,6 +94,10 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Connected repo to IJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected repo to IJ" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="361" y="67" key="#Live_Templates" timestamp="1636582578862">
       <screen x="0" y="0" width="1536" height="816" />
@@ -120,26 +119,30 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1636803661657" />
+    <state x="0" y="6" key="CommitChangelistDialog2" timestamp="1636842060260">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="0" y="6" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1636842060260" />
     <state x="846" y="174" key="FileChooserDialogImpl" timestamp="1636841936240">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="846" y="174" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1636841936240" />
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1636841634205">
+    <state width="1174" height="196" key="GridCell.Tab.0.bottom" timestamp="1636842070697">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636841634205" />
-    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1636841634205">
+    <state width="1174" height="196" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636842070697" />
+    <state width="1174" height="196" key="GridCell.Tab.0.center" timestamp="1636842070696">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636841634205" />
-    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1636841634205">
+    <state width="1174" height="196" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636842070696" />
+    <state width="1174" height="196" key="GridCell.Tab.0.left" timestamp="1636842070696">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636841634205" />
-    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1636841634205">
+    <state width="1174" height="196" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636842070696" />
+    <state width="1174" height="196" key="GridCell.Tab.0.right" timestamp="1636842070696">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636841634205" />
+    <state width="1174" height="196" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636842070696" />
     <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1636840061383">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

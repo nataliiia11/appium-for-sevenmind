@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="33.363">
-    <testcase classname="Login" name="User can log in with valid email and password" time="32.73">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="34.309">
+    <testcase classname="Login" name="User can log in with valid email and password" time="33.544">
         <system-out><![CDATA[When L1 - user open sevenmind app...........................................passed
 And L1 - user taps on continue button.......................................passed
 And L1 - user taps on log in button.........................................passed
