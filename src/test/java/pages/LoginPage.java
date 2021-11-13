@@ -28,6 +28,7 @@ public class LoginPage {
         return textViews;
     }
 
+    //Preparation for the best time when each element will have a separate id
     @AndroidFindBy(id = "")
     WebElement btn_continue;
 
@@ -48,13 +49,11 @@ public class LoginPage {
     public void tapContinueButton(AppiumDriver<WebElement> driver) {
         WebElement button = driver.findElement(By.id("de.sevenmind.android:id/actionButton"));
         button.click();
-        button = null;
     }
 
     public void tapLoginButton(AppiumDriver<WebElement> driver) {
         WebElement button = driver.findElement(By.id("de.sevenmind.android:id/actionButton"));
         button.click();
-        button = null;
     }
 
     public void tapEmailLoginButton(AppiumDriver<WebElement> driver) {
@@ -71,11 +70,7 @@ public class LoginPage {
     public void enterPassword(AppiumDriver<WebElement> driver, String password) {
         List<WebElement> textViews = enterText(driver);
         textViews.get(0).sendKeys(password);
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         driver.getKeyboard().sendKeys(Keys.ENTER);
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
     }
-
-
 }
 

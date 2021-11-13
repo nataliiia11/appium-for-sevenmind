@@ -22,14 +22,14 @@ public class LoginPositive {
     public void userOpenSevenmindApp() throws MalformedURLException {
         initialClass = new InitialClass();
         driver = InitialClass.androidLaunchApp();
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @And("L1 - user taps on continue button")
     public void userTapsOnContinueButton() {
         loginPage = new LoginPage(driver);
         loginPage.tapContinueButton(driver);
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @And("L1 - user taps on log in button")
@@ -48,19 +48,19 @@ public class LoginPositive {
     public void userEntersEmail() {
         loginPage = new LoginPage(driver);
         loginPage.enterEmail(driver, "borshiq111@gmail.com");
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @And("L1 - user enters password")
-    public void userEntersPassword() {
+    public void userEntersPassword() throws InterruptedException {
         loginPage.enterPassword(driver, "TestingTesting2022!");
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        Thread.sleep(1000);
     }
 
     @Then("L1 - user should see the screen with meditation programs")
     public void userShouldSeeTheScreenWithMeditationPrograms() {
         List<WebElement> txts = driver.findElements(By.id("de.sevenmind.android:id/cellChatPhraseTextView"));
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         String firstExpectedPhrase = "Welcome back, you're now logged in and can continue your journey ✨";
         String secondExpectedPhrase = "Wonderful";
         String thirdExpectedPhrase = "Would you like to learn more about the features of the app or start your first meditation now?";

@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "junit:target/JUnitReports/report.xml",
                 "json:target/JSONReports/report.json",
                 "html:target/HtmlReports1/report.html"},
-        tags = "@L2")
+        tags = "@L1")
 public class TestRunner {
 
 }
