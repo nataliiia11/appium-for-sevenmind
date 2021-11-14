@@ -6,18 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class LoginPage {
 
     public static AppiumDriver<WebElement> driver=null;
-
-    public LoginPage() {
-    }
 
     public LoginPage(AppiumDriver<WebElement> driver) {
         this.driver = driver;

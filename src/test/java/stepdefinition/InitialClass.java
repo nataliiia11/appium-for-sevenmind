@@ -21,8 +21,6 @@ public class InitialClass {
         cap.setCapability("deviceName", "pixel4");
         cap.setCapability("appPackage", "de.sevenmind.android");
         cap.setCapability("appActivity", "de.sevenmind.android.MainActivity");
-        cap.setCapability("isHeadless", true);
-        cap.setCapability("avdArgs", "-no-window");
         driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
         Assert.assertNotNull(driver);
         return driver;
